@@ -13,7 +13,7 @@ public class Auto {
 	int cantidadAsientos() {
 		int valor;
 		valor=0;
-		for(indice=0;indice<asientos.length;indice++) {
+		for(int indice=0;indice<asientos.length;indice++) {
 			if (asientos[indice]!=null) {
 				valor=valor+1;
 			}
