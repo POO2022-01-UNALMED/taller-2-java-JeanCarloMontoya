@@ -9,6 +9,19 @@ public class Auto {
 	int registro;
 	static int cantidadCreados;
 	
+		
+	int cantidadAsientos() {
+		int valor;
+		valor=0;
+		for(indice=0;indice<asientos.length;indice++) {
+			if (asientos[indice]!=null) {
+				valor=valor+1;
+			}
+			
+		}
+		return valor;
+	}
+	
 	
 
 }
